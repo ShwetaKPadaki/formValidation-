@@ -1,0 +1,65 @@
+
+body{
+    background-color: teal;
+}
+
+
+
+#FormValidate{
+    background-color: white; 
+    width: 30%;
+    text-align: center;
+    border: 10px solid darkolivegreen;
+    border-radius: 30px; 
+    box-shadow: 0 0 25px rgba(0,0,0,0);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+    padding: 30px;
+} 
+#fname,#lname,#phone, #exp{
+    width: 250px;
+    height: 25px;
+    background-color: lightgray;
+    border: lightgray;
+   
+}
+#msg{
+    width: 250px;
+    height: 100px;
+    background-color: lightgray;
+    border: lightgray;
+}
+
+#fname:focus,#lname:focus,#phone:focus, #exp:focus, msg:focus{
+    background: gray;
+
+}
+
+#submit{
+    width: 100px;
+    height: 50px;
+   background-color: lightgray;
+}
+
+#submit:hover{
+    background-color: gray;
+}
+
+label.error{
+    font-weight: 700;
+    display: block;
+    color: #f00;
+    font-size: 14px;
+
+}
+.Output{
+    
+    background-color:blueviolet;
+    display: inline-block;
+    background: #eee;
+   
+}
